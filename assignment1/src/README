@@ -1,0 +1,9 @@
+The file 'jdbc.java' contains the java code to programatically insert the entries for the 'relations' table of the database using the PostgreSQL JDBC driver.
+
+The code utilises the java.sql library to establish a connection with the database, reads a .csv file containing data and executes the statements line by line.
+
+To run the code, first include the .jar file of the JDBC driver by running the command-
+export CLASSPATH=.:/Library/Java/Extensions/postgresql-42.2.1.jar
+in the terminal in the directory containing the code.
+
+Then compile and execute the code normally.
